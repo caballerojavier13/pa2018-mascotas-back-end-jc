@@ -17,7 +17,7 @@ export function getConfig(environment: any): Config {
     dotenv.config({ path: ".env" });
 
     config = {
-      port: process.env.SERVER_PORT || "3000",
+      port: process.env.PORT || "3000",
       logLevel: process.env.LOG_LEVEL || "debug",
       mongoDb: process.env.MONGODB_URI || "mongodb://localhost/petdb",
       redisHost: process.env.REDIS_URL || "127.0.0.1:6379",
