@@ -12,7 +12,7 @@ import * as redis from "ioredis";
 import * as appConfig from "../utils/environment";
 
 const conf = appConfig.getConfig(process.env);
-const redisClient = new redis(conf.redisPort, conf.redisHost);
+const redisClient = new redis(conf.redisHost);
 redisClient.on("connect", function () {
   console.log("connected");
 });
