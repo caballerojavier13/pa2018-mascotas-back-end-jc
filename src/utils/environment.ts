@@ -34,7 +34,6 @@ export interface Config {
   logLevel: string; // 'debug' | 'verbose' | 'info' | 'warn' | 'error';
   mongoDb: string;
   redisHost: string;
-  redisPort: number;
   passwordSalt: string;
   jwtSecret: string;
 }
