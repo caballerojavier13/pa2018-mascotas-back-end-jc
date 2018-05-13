@@ -4,7 +4,7 @@
     "description": "Server de Masctoas en Node con TypeScript",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nmarsollier/pa2018_mascotas.git"
+        "url": "https://github.com/caballerojavier13/pa2018-mascotas-back-end-jc.git"
     },
     "author": "Nestor Marsollier",
     "license": "MIT",
